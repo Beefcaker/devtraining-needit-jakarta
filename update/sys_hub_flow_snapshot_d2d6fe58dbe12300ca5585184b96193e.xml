@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <label_cache>[{"name":"7beb7fdf-c56c-421b-bc5e-ce76874218d5.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"7beb7fdf-c56c-421b-bc5e-ce76874218d5.record.approval","label":"1➛NeedIt Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"approval","choices":[{"used":false,"image":"","selected":false,"label":"Not Yet Requested","missing":false,"reference":false,"rawLabel":"Not Yet Requested","value":"not requested"},{"used":false,"image":"","selected":false,"label":"Requested","missing":false,"reference":false,"rawLabel":"Requested","value":"requested"},{"used":false,"image":"","selected":false,"label":"Approved","missing":false,"reference":false,"rawLabel":"Approved","value":"approved"},{"used":false,"image":"","selected":false,"label":"Rejected","missing":false,"reference":false,"rawLabel":"Rejected","value":"rejected"}]},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_request_type","label":"Trigger➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type","choices":[{"used":false,"image":"","selected":false,"label":"Human Resources","missing":false,"reference":false,"rawLabel":"Human Resources","value":"hr"},{"used":false,"image":"","selected":false,"label":"Facilities","missing":false,"reference":false,"rawLabel":"Facilities","value":"facilities"},{"used":false,"image":"","selected":false,"label":"Legal","missing":false,"reference":false,"rawLabel":"Legal","value":"legal"}]},{"name":"Created_1.current.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"}]</label_cache>
+        <name>StartFragmentNeedIt FulfillmentEndFragment</name>
+        <parent_flow display_value="StartFragmentNeedIt FulfillmentEndFragment">c8635650dba12300ca5585184b9619f4</parent_flow>
+        <remote_trigger_id>5e7c5ed8dba12300ca5585184b961908</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-30 16:07:41</sys_created_on>
+        <sys_id>d2d6fe58dbe12300ca5585184b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StartFragmentNeedIt FulfillmentEndFragment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d2d6fe58dbe12300ca5585184b96193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-30 16:07:41</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
